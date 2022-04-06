@@ -15,12 +15,7 @@ Assets = {
 
 TUNING.FLOWERAMULET_DURABILITY = GetModConfigData("DURABILITY")
 
-local floweramulet = AddRecipe("floweramulet", {Ingredient("goldnugget", 15), Ingredient("petals", 15), Ingredient("butterflywings", 10)}, RECIPETABS.FARM,  TECH.SCIENCE_ONE)
-floweramulet.product = "floweramulet"
-floweramulet.numtogive = 1
-
-floweramulet.atlas = "images/floweramulet.xml"
-floweramulet.image = "floweramulet.tex"
+AddRecipe2("floweramulet", {Ingredient("goldnugget", 5), Ingredient("petals", 10), Ingredient("butterflywings", 10)}, TECH.SCIENCE_ONE, {product = "floweramulet", image = "floweramulet.tex", atlas = "images/floweramulet.xml"}, {"GARDENING"})
 
 STRINGS.NAMES.FLOWERAMULET = "Flower Amulet"
 STRINGS.RECIPE_DESC.FLOWERAMULET = "Plant seeds everywhere."

@@ -1,6 +1,6 @@
 name = "Flower Amulet"
 author = "krylincy"
-version = "1.1"
+version = "1.2"
 description = [[With the Flower Amulet you can plant 
 seeds everywhere like Wormwood. 
 
